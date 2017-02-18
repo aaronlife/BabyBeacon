@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:textColor="#a70c0c"/>
+
+    <TextView android:id="@+id/distance"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:textColor="#773333"
+        android:textSize="16dp"/>
+
+    <Button android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="5dp"
+        android:text="發送通知"
+        android:textSize="16dp"
+        android:background="#dfe8ec"
+        android:onClick="onSend"/>
+</LinearLayout>
